@@ -2,7 +2,6 @@
 ##Project Overview
 This project aims to analyze, predict, and visualize heart disease risks using machine learning techniques. The workflow includes data preprocessing, feature selection, dimensionality reduction (PCA), model training, evaluation, and deployment. Both supervised and unsupervised learning models are implemented to provide insights and predictions regarding heart disease.
 
---
 ## Objectives
 - Perform data preprocessing and cleaning (handle missing values, encode categorical variables, scale features).  
 - Apply **PCA** for dimensionality reduction.  
@@ -17,7 +16,6 @@ This project aims to analyze, predict, and visualize heart disease risks using m
   - Hierarchical Clustering  
 - Optimize model performance using **GridSearchCV** and **RandomizedSearchCV**.
   
---
 ## Project Workflow
 
 1. **Data Preprocessing**  
@@ -48,5 +46,13 @@ This project aims to analyze, predict, and visualize heart disease risks using m
 
 7. **Model Export & Deployment**  
    - Save trained models and pipelines using `joblib`
-   
+  
+
+## Dataset
+
+- **Source:** [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+Disease)  
+- **Features:** 14 attributes including age, sex, chest pain type, resting blood pressure, cholesterol, and more.  
+- **Target:** Presence (1) or absence (0) of heart disease.  
+- **Status:** Dataset has been fully preprocessed and used in the completed analysis.
+
 
